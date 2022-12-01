@@ -55,6 +55,7 @@ def hod_compa(col3):
         ver = randint(1,summc-15+2)
         if ver == 1:
             vibor == True
+
     if vibor == True:
         summc = summc + int(col3[0])
         print('Компьютеру выпала ещё одна карта. Это ', col3[0])
